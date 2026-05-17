@@ -1,4 +1,4 @@
-# Brain Tumor Classification using Deep Learning
+# TumorScan AI | Radiology Assistant
 
 This project is a brain tumor classifier built using a deep learning model (EfficientNetB0 CNN), trained into a custom AI model that predicts brain tumors based on MRI scans.
 
@@ -25,7 +25,7 @@ The model was trained for 50 epochs and showed strong learning ability with high
 
 ### Training Highlights
 - **Best Validation Accuracy:** 97.28% (reached at Epoch 44)
-- **Final Test Accuracy:** **97.22%**
+- **Final Test Accuracy:** 97.22%
 
 ### Classification Report
 
@@ -77,7 +77,7 @@ Here is how the application predicts and classifies brain MRI scans for each cat
 
 ---
 
-## Tech Stack & Architecture
+## Tech Stack 
 
 This project uses deep learning and computer vision to build an end-to-end brain tumor classification system.
 
@@ -90,3 +90,16 @@ This project uses deep learning and computer vision to build an end-to-end brain
 - **Visualization:** Matplotlib, Seaborn
 
 ---
+
+## ⚠️ Disclaimer
+
+This project is developed for educational and research purposes only. It is not intended to be used as a medical diagnostic tool. The model’s predictions are based on training data and may not always be accurate. It should not replace professional medical advice, diagnosis or treatment.
+
+---
+
+## References
+
+The following datasets were used for training and evaluation of this project:
+
+- Brain Tumor MRI Dataset: https://www.kaggle.com/datasets/mohammadhossein77/brain-tumors-dataset  
+- Brain Tumor MRI Dataset (Multi-class): https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
