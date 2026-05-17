@@ -9,3 +9,5 @@ pillow
 streamlit
 fpdf2
 reportlab
+imagehash
+tqdm

@@ -52,9 +52,6 @@ The high concentration of numbers along the dark blue diagonal proves that the m
 
 Here is how the application predicts and classifies brain MRI scans for each category:
 
-### Main Page
-![Main](screenshots/main.png)
-
 ---
 
 *The model correctly identifies each type of brain tumor by detecting abnormal tissue patterns in the MRI scan.*
@@ -82,13 +79,58 @@ Here is how the application predicts and classifies brain MRI scans for each cat
 This project uses deep learning and computer vision to build an end-to-end brain tumor classification system.
 
 ### Core Technologies
-- **Programming Language:** Python
+- **Programming Language:** Python 3.10
 - **Deep Learning Framework:** TensorFlow, Keras (EfficientNetB0 CNN)
 - **Computer Vision:** OpenCV, Pillow (PIL)
 - **Web Interface:** Streamlit
 - **Data Processing & Evaluation:** NumPy, Scikit-learn
 - **Visualization:** Matplotlib, Seaborn
 
+---
+
+## Setup and Running Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone "https://github.com/Maheen012/TumorScan-AI.git"
+```
+
+```bash
+cd TumorScan-AI
+```
+
+### 2. Prerequisites
+
+Ensure you have Python 3.10 installed on your system.
+
+### 3. Create Virtual Environment
+
+Create a new Python 3.10 virtual environment:
+
+```bash
+py -3.10 -m venv venv
+```
+
+### 4. Activate Environment
+
+```bash
+.\venv\Scripts\Activate
+```
+
+### 5. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 6. Run the Application
+
+This will redirect you to the web app:
+
+```bash
+streamlit run app.py
+```
 ---
 
 ## ⚠️ Disclaimer
