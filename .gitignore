@@ -1,0 +1,4 @@
+raw_data/
+duplicates/
+__pycache__/
+venv/
